@@ -2,7 +2,7 @@
 
 Minimal Node.js Docker Image built on RHEL 7 atomic. Version v8.3.0 is built on RHEL atomic base image.
 
-All versions use the one cibcapi/rhel-atomic-nodejs repository, but each version aligns with the following tags (ie, cibcapi/rhel-atomic-nodejs:<tag>):
+All versions use the one dineshalapati/rhel-atomic-nodejs repository, but each version aligns with the following tags (ie, dineshalapati/rhel-atomic-nodejs:<tag>):
 
 - Full install built with npm:
     - `latest`, `8.3.0` (npm 5.3.0)
@@ -10,10 +10,10 @@ All versions use the one cibcapi/rhel-atomic-nodejs repository, but each version
 ## Examples
 
 ```console
-$ docker run --rm cibcapi/rhel-atomic-nodejs node --version
+$ docker run --rm dineshalapati/rhel-atomic-nodejs node --version
 v8.3.0
 
-$ docker run --rm cibcapi/rhel-atomic-nodejs npm --version
+$ docker run --rm dineshalapati/rhel-atomic-nodejs npm --version
 v5.3.0
 ```
 
@@ -33,10 +33,10 @@ $ make run
 ## Clean up
 
 ```console
-# clean any running cibcapi/rhel-atomic-nodejs containers
+# clean any running dineshalapati/rhel-atomic-nodejs containers
 $ make clean
 
-# clean cibcapi/rhel-atomic-nodejs docker images
+# clean dineshalapati/rhel-atomic-nodejs docker images
 $ make clean-image
 ```
 
@@ -45,7 +45,7 @@ $ make clean-image
 Here's a typical example using a "full install" image:
 
 ```Dockerfile
-FROM cibcapi/rhel-atomic-nodejs
+FROM dineshalapati/rhel-atomic-nodejs
 
 WORKDIR /app
 COPY . .
