@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhel7-atomic
+FROM registry.access.redhat.com/rhel-minimal
 
 ENV PATH "/opt/rh/rh-nodejs8/root/bin:$PATH"
 

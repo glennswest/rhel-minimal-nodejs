@@ -1,6 +1,6 @@
 # rhel-atomic-nodejs
 
-Minimal Node.js Docker Image built on RHEL 7 atomic. Version v8.3.0 is built on RHEL atomic base image.
+Minimal Node.js Docker Image built on RHEL 7 Minimal. Version v8.3.0 is built on RHEL atomic base image.
 
 All versions use the one dineshalapati/rhel-atomic-nodejs repository, but each version aligns with the following tags (ie, dineshalapati/rhel-atomic-nodejs:<tag>):
 
