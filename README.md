@@ -10,7 +10,7 @@ All versions use the one dineshalapati/rhel-atomic-nodejs repository, but each v
 ## Examples
 
 ```console
-$ docker run --rm dineshalapati/rhel-atomic-nodejs node --version
+$ docker run --rm glennswest/rhel-minimal-nodejs node --version
 v8.3.0
 
 $ docker run --rm dineshalapati/rhel-atomic-nodejs npm --version
